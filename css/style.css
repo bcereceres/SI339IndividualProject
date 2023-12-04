@@ -34,6 +34,8 @@ text-align: center;
 #Nav1 li {
 padding: 10px;
 display: inline-block;
+padding-left: 40px;
+padding-right: 40px;
 }
 
 #Nav1 a {
@@ -75,6 +77,8 @@ text-align: center;
 #Nav2 li {
 padding: 10px;
 display: inline-block;
+padding-left: 40px;
+padding-right: 40px;
 }
 
 #Nav2 a {
@@ -87,7 +91,7 @@ padding-left: 40px;
 padding-right: 40px;
 text-decoration: none;
 background-color: white;
-color: lightskyblue;
+color: #093E5D;
 }
 
 #Nav2 a:hover {
@@ -174,7 +178,7 @@ background-color: lightskyblue;
 float: left;
 }
 p.footy2 {
-color: white;
+color: #333333;
 font-size: 15px;
 padding-left: 10px
 }
@@ -232,6 +236,7 @@ h1.AboutBody {
 font-size: 50px;
 font-family: sans-serif;
 color: darkred;
+padding-top: 30px;
 padding-bottom: 50px;
 }
 
@@ -254,15 +259,19 @@ h1.DonateBody  {
 font-size: 50px;
 font-family: serif;
 color: dodgerblue;
+padding-top: 20px;
+padding-bottom: 40px;
 }
 
 h2.DonateBodyHelp {
 font-size: 30px;
+padding-bottom: 30px;
 }
 
 h2.DonateBody {
 font-size: 30px;
 color: dodgerblue;
+padding-bottom: 20px;
 }
 h2.DonateBody a{
 color: dodgerblue;
@@ -275,9 +284,10 @@ text-decoration: none;
 
 p.DonateBody {
 font-size: 23px;
+padding-bottom: 20px;
 }
 @media (min-width: 600px) {
-
+  
 }
 @media (min-width: 800px) {
     

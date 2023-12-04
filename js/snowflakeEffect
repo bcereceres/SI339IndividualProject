@@ -1,6 +1,9 @@
-document.addEventListener("DOMContentLoaded", function () {
-    let container = document.querySelector(".snowflakes");
-  
+document.querySelector("#snowfall").addEventListener("click", function () {
+  let container = document.querySelector(".snowflakes");
+  while (container.firstChild) {
+    container.removeChild(container.firstChild);
+  }
+  if (this.checked) {
     for (let i = 0; i < 150; i++) {
       let snowflake = document.createElement("div");
       snowflake.className = "snowflake";
@@ -9,4 +12,9 @@ document.addEventListener("DOMContentLoaded", function () {
       snowflake.style.animationDelay = Math.random() + "s";
       container.appendChild(snowflake);
     }
-  });
+    container.style.position = "fixed";
+    container.style.top = "0";
+  } else {
+    container.style.position = "static";
+  }
+});
