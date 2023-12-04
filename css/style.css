@@ -1,0 +1,315 @@
+body{
+margin: 0;
+padding: 0;
+font-family: sans-serif;
+background-color: gainsboro;
+background-image: url(../images/MainSnow.jpeg);
+background-repeat: no-repeat;
+}
+
+#mainWrapper1 {
+width: 960px;
+height: auto;
+margin: 0 auto;
+padding: 0;
+background-color: white;
+}
+
+#Nav1 {
+width: 953px;
+height: 50px;
+background-color: darkred;
+padding-top: 11px;
+padding-bottom: 11px;
+padding-right: 7px;
+margin-bottom: 0px;
+}
+
+#Nav1 ul {
+font-family: Arial;
+font-size: 16px; 
+text-align: center;
+}
+
+#Nav1 li {
+padding: 10px;
+display: inline-block;
+}
+
+#Nav1 a {
+border-style: solid;
+border-width: 3px;
+border-color: darkgreen;
+padding-top: 8px;
+padding-bottom: 8px;
+padding-left: 40px;
+padding-right: 40px;
+text-decoration: none;
+background-color: white;
+color: darkgreen;
+}
+
+#Nav1 a:hover {
+background-color: darkgreen;
+color: White;
+border-color: White;
+}
+
+#Nav2 {
+width: 960;
+height: 50px;
+background-color: lightskyblue;
+padding-top: 11px;
+padding-bottom: 11px;
+padding-right: 7px;
+margin-bottom: 0px;
+}
+
+#Nav2 ul {
+list-style: none; 
+font-family: Arial;
+font-size: 16px; 
+text-align: center;
+}
+
+#Nav2 li {
+padding: 10px;
+display: inline-block;
+}
+
+#Nav2 a {
+border-style: solid;
+border-width: 3px;
+border-color: black;
+padding-top: 8px;
+padding-bottom: 8px;
+padding-left: 40px;
+padding-right: 40px;
+text-decoration: none;
+background-color: white;
+color: lightskyblue;
+}
+
+#Nav2 a:hover {
+background-color: lightskyblue;
+color: White;
+border-color: White;
+}
+
+#BannerL{
+width: 20px;
+height: 700px;
+float: left;
+background-color: darkgreen;
+}
+#BannerR{
+width: 20px;
+height: 700px;
+float: left;
+background-color: darkgreen
+}
+#BannerL2{
+width: 20px;
+height: 700px;
+float: left;
+background-color: lightskyblue;
+}
+#BannerR2{
+width: 20px;
+height: 700px;
+float: left;
+background-color: lightskyblue;
+}
+#ChristmasR {
+width: 210px;
+height: 700px;
+background-color:pink;
+float: left;
+background-image: url(../images/TreeBanner.jpeg);
+background-repeat: no-repeat;
+}
+#ChristmasR2 {
+width: 210px;
+height: 700px;
+background-color:pink;
+float: left;
+background-image: url(../images/SnowyBanner.jpeg);
+background-repeat: no-repeat;
+}
+#ChristmasR3 {
+width: 210px;
+height: 700px;
+background-color:pink;
+float: left;
+background-image: url(../images/MainIce.jpeg);
+background-repeat: no-repeat;
+}
+
+#contentArea{
+width: 700px;
+height: 700px;
+margin: 0;
+padding-left: 10px;
+background-color: White;
+float: left;
+
+}
+
+#footer {
+width: 960px;
+height: 35px;
+background-color: darkred;
+float: left;
+padding-top: 10px;
+}
+p.footy {
+color: pink;
+font-size: 15px;
+padding-left: 10px
+}
+#footer2 {
+width: 960px;
+height: 35px;
+background-color: lightskyblue;
+float: left;
+}
+p.footy2 {
+color: white;
+font-size: 15px;
+padding-left: 10px
+}
+
+#banner{
+width: auto;
+height: 135px;
+background-color: white;
+background-image: url(../images/Deco.jpeg);
+background-repeat: no-repeat;
+}
+#banner2{
+width: auto;
+height: 135px;
+background-color: white;
+background-image: url(../images/HeartBanner.jpeg);
+background-repeat: no-repeat;
+}
+
+p.IndexBody {
+font-size: 25px;
+font-family: serif;
+color: darkred;
+padding-bottom: 20px;
+}
+
+p.IndexBodyPlan {
+font-size: 35px;
+font-family: serif;
+padding-top: 30px;
+}
+p.IndexBodyPlan a:hover {
+color:pink;
+}
+p.IndexBodyPlan a {
+color:darkred;
+}
+
+h1.IndexBody {
+font-size: 50px;
+font-family: sans-serif;
+color: darkred;
+padding-bottom: 50px;
+
+}
+
+h2.IndexBody {
+font-size: 30px;
+color: darkgreen;
+padding-bottom: 40px;
+}
+
+
+h1.AboutBody {
+font-size: 50px;
+font-family: sans-serif;
+color: darkred;
+padding-bottom: 50px;
+}
+
+h2.AboutBody {
+font-size: 30px;
+font-family: sans-serif;
+color: darkgreen;
+padding-bottom: 20px;
+}
+
+p.AboutBody {
+font-size: 25px;
+font-family: serif;
+color: darkred;
+padding-bottom: 20px;
+}
+
+
+h1.DonateBody  {
+font-size: 50px;
+font-family: serif;
+color: dodgerblue;
+}
+
+h2.DonateBodyHelp {
+font-size: 30px;
+}
+
+h2.DonateBody {
+font-size: 30px;
+color: dodgerblue;
+}
+h2.DonateBody a{
+color: dodgerblue;
+text-decoration: none;
+}
+h2.DonateBody a:hover {
+color:darkturquoise;
+text-decoration: none;
+}
+
+p.DonateBody {
+font-size: 23px;
+}
+@media (min-width: 600px) {
+
+}
+@media (min-width: 800px) {
+    
+}
+@media(min-width: 1024px) {
+    
+}
+
+/* Snowflake stuff */
+.snowflakes {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.snowflake {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: #fff;
+  border-radius: 50%;
+  opacity: 0.5;
+  animation: fall linear infinite;
+}
+
+@keyframes fall {
+  0% {
+    transform: translateY(-100vh);
+  }
+  100% {
+    transform: translateY(100vh);
+  }
+}
